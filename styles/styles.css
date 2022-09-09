@@ -1,4 +1,5 @@
-body{font-family:'Roboto', sans-serif;}
+body{font-family:'Roboto', sans-serif;
+background-color: #fef1ff;}
 
 header{
     width: 100%;
@@ -39,7 +40,7 @@ span > a:hover{
     justify-content: space-between;}
 
 
-.wave{
+.wave1{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -89,11 +90,56 @@ span > a:hover{
 
 .title{
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 50px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
     color: rgb(163, 108, 185);
 }
+
+.ind-about-us{display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1cm;
+}
+
+.about-us-img{width: 48%;
+border-radius: 10px;}
+
+.about-us-text{width: 48%;}
+
+.card{margin-bottom: 30px;}
+
+.catalogue{background-color: rgb(255, 255, 255);
+padding-top: 1.5cm;}
+
+.contact{
+    padding-top: 1.5cm;
+}
+
+.card{background-color: rgb(197, 169, 209);}
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(230, 95%, 70%, 0.501), hsla(348, 96%, 67%, 0.501)), url(../assets/images/footer.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(230, 95%, 70%, 0.5), hsla(348, 96%, 67%, 0.5)), url(../assets/images/footer.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+text-align: center;
+color: white;}
+
+.wave2{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.container-footer{margin-top: 3cm;
+text-align: left;
+margin-left: 10%;}
+
+
 
