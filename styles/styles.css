@@ -1,0 +1,99 @@
+body{font-family:'Roboto', sans-serif;}
+
+header{
+    width: 100%;
+    height: 800px;
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(230, 95%, 70%, 0.501), hsla(348, 96%, 67%, 0.501)), url(../assets/images/Portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(230, 95%, 70%, 0.5), hsla(348, 96%, 67%, 0.5)), url(../assets/images/Portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;}
+
+nav > a{color: white;
+font-weight: 300;
+text-decoration: none;
+margin-left: 30px;
+margin-right: 30px;
+font-size: x-large;}
+
+span > a{color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: x-large;}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+span > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.container-nav{
+    padding: 50px 50px ;
+    display: flex;
+    justify-content: space-between;}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.jumbotron{
+    display: flex;
+    height:  430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+.jumbotron h1{
+    font-size: 200px;
+    color: white;
+}
+
+.jumbotron h2{
+    font-size: 50px;
+    color: white;
+}
+
+.jumbotron button{
+    margin: 50px 30px;
+    height: 100px;
+    width: 500px;
+    background-color: hsla(348, 96%, 67%, 0);
+    font-family:'Roboto', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 5px;
+    outline: none;
+    box-shadow: inset 0 0 0 0 hsla(341, 44%, 35%, 0);
+    transition: ease-in-out 0.3s;
+}
+
+.jumbotron button:hover{
+    box-shadow: inset 500px 0 0 0 rgb(163, 108, 185);
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(163, 108, 185);
+}
+
