@@ -208,3 +208,7 @@ footer {
   /* Microsoft Edge */
   color: rgb(163, 108, 185);
 }
+
+.card-title{
+    font-weight: 700;
+}
