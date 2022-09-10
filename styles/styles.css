@@ -1,145 +1,210 @@
-body{font-family:'Roboto', sans-serif;
-background-color: #fef1ff;}
-
-header{
-    width: 100%;
-    height: 800px;
-    background: #FC5C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(230, 95%, 70%, 0.501), hsla(348, 96%, 67%, 0.501)), url(../assets/images/Portada.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(230, 95%, 70%, 0.5), hsla(348, 96%, 67%, 0.5)), url(../assets/images/Portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;}
-
-nav > a{color: white;
-font-weight: 300;
-text-decoration: none;
-margin-left: 30px;
-margin-right: 30px;
-font-size: x-large;}
-
-span > a{color: white;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 30px;
-    font-size: x-large;}
-
-nav > a:hover{
-    text-decoration: underline;
-    color: white;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fef1ff;
 }
 
-span > a:hover{
-    text-decoration: underline;
-    color: white;
+header {
+  width: 100%;
+  height: 800px;
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(230, 95%, 70%, 0.501),
+      hsla(348, 96%, 67%, 0.501)
+    ),
+    url(../assets/images/Portada.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(230, 95%, 70%, 0.5),
+      hsla(348, 96%, 67%, 0.5)
+    ),
+    url(../assets/images/Portada.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
-.container-nav{
-    padding: 50px 50px ;
-    display: flex;
-    justify-content: space-between;}
-
-
-.wave1{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+nav > a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: x-large;
 }
 
-.jumbotron{
-    display: flex;
-    height:  430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    text-transform: uppercase;
-}
-.jumbotron h1{
-    font-size: 200px;
-    color: white;
+span > a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: x-large;
 }
 
-.jumbotron h2{
-    font-size: 50px;
-    color: white;
+nav > a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
-.jumbotron button{
-    margin: 50px 30px;
-    height: 100px;
-    width: 500px;
-    background-color: hsla(348, 96%, 67%, 0);
-    font-family:'Roboto', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: white;
-    border-radius: 40px;
-    border-color: white;
-    border-width: 5px;
-    outline: none;
-    box-shadow: inset 0 0 0 0 hsla(341, 44%, 35%, 0);
-    transition: ease-in-out 0.3s;
+span > a:hover {
+  text-decoration: underline;
+  color: white;
 }
 
-.jumbotron button:hover{
-    box-shadow: inset 500px 0 0 0 rgb(163, 108, 185);
-    cursor: pointer;
+.container-nav {
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.title{
-    text-align: center;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 50px;
-    color: rgb(163, 108, 185);
+.wave1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
-.ind-about-us{display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 1cm;
+.jumbotron {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+.jumbotron h1 {
+  font-size: 150px;
+  color: white;
 }
 
-.about-us-img{width: 48%;
-border-radius: 10px;}
-
-.about-us-text{width: 48%;}
-
-.card{margin-bottom: 30px;}
-
-.catalogue{background-color: rgb(255, 255, 255);
-padding-top: 1.5cm;}
-
-.contact{
-    padding-top: 1.5cm;
+.jumbotron h2 {
+  font-size: 35px;
+  color: white;
 }
 
-.card{background-color: rgb(197, 169, 209);}
-
-
-footer{
-    width: 100%;
-    height: 400px;
-    background: #FC5C7D;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(230, 95%, 70%, 0.501), hsla(348, 96%, 67%, 0.501)), url(../assets/images/footer.jpg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(230, 95%, 70%, 0.5), hsla(348, 96%, 67%, 0.5)), url(../assets/images/footer.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-text-align: center;
-color: white;}
-
-.wave2{
-    position: absolute;
-    top: 0;
-    width: 100%;
+.jumbotron button {
+  margin: 50px 30px;
+  height: 65px;
+  width: 350px;
+  background-color: hsla(348, 96%, 67%, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 40px;
+  border-color: white;
+  border-width: 5px;
+  outline: none;
+  box-shadow: inset 0 0 0 0 hsla(341, 44%, 35%, 0);
+  transition: ease-in-out 0.3s;
 }
 
-.container-footer{margin-top: 3cm;
-text-align: left;
-margin-left: 10%;}
+.jumbotron button:hover {
+  box-shadow: inset 350px 0 0 0 rgb(163, 108, 185);
+  cursor: pointer;
+}
 
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(163, 108, 185);
+}
 
+.ind-about-us {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 1cm;
+}
 
+.about-us-img {
+  width: 48%;
+  border-radius: 10px;
+  margin-right: 1cm;
+}
+
+.about-us-text {
+  width: 48%;
+  color: rgb(163, 108, 185);
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.catalogue {
+  background-color: rgb(255, 255, 255);
+  padding-top: 1.5cm;
+}
+
+.contact {
+  padding-top: 1.5cm;
+}
+
+.card {
+  background-color: #fef1ff;
+  color: rgb(163, 108, 185);
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background: #fc5c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+      to right,
+      hsla(230, 95%, 70%, 0.501),
+      hsla(348, 96%, 67%, 0.501)
+    ),
+    url(../assets/images/footer.jpg); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+      to right,
+      hsla(230, 95%, 70%, 0.5),
+      hsla(348, 96%, 67%, 0.5)
+    ),
+    url(../assets/images/footer.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.wave2 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container-footer {
+  margin-top: 3cm;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.btn-light {
+  color: rgb(163, 108, 185);
+  font-weight: 900;
+  width: 250px;
+  border-color: rgb(163, 108, 185);
+  background-color: white;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(163, 108, 185);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(163, 108, 185);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(163, 108, 185);
+}
